@@ -1,20 +1,41 @@
-*/.ok
-*/distribute-*.tar.gz
-*.zip
-erlang/amqp_client*
-erlang/rabbit_common*
-python/venv
-dotnet/*.exe
-dotnet/lib
-java/*.class
-java/*.jar
-java/rabbitmq-java-client-bin*
-javascript-nodejs/node_modules
-php/lib/
-python-puka/venv
-ruby*/gems/
-venv/*
-ruby*/rubygems*
+*.class
 
-java*/.idea/workspace.xml
-java*/.idea/encodings.xml
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+*target*
+*.jar
+*.war
+*.ear
+*.class
+
+# eclipse specific git ignore
+*.pydevproject
+#.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+#.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+/bin/
